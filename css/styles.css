@@ -16,3 +16,11 @@
     font-size: 30px;
     color: gold
 }
+
+@media screen and (max-width: 480px) and (min-width: 300px) {
+    body {
+        width: 300px;
+        padding: 20px;
+        background-color: red;  
+    }
+}
